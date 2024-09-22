@@ -11,7 +11,7 @@ const ChangePassword = ({ onPasswordChanged }) => {
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
-  const url = "https://imlasoftservices.website/backend/changePassword.php";
+
   // const url = "http://localhost/backend/changePassword.php";
 
   const handleChangePassword = async () => {
