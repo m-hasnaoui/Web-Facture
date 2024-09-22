@@ -12,7 +12,7 @@ const ChangePassword = ({ onPasswordChanged }) => {
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
 
-  // const url = "http://localhost/backend/changePassword.php";
+ const url = "http://localhost/backend/changePassword.php";
 
   const handleChangePassword = async () => {
     try {
