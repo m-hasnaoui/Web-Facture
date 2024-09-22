@@ -34,8 +34,8 @@ const tableDescriptions = {
 function Dashboard() {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  // const url = "http://localhost/backend/basic_data.php/";
-  const url = "https://imlasoftservices.website/backend/basic_data.php";
+  const url = "http://localhost/backend/basic_data.php/";
+
 
   const tables = [
     "ABCCLS",
