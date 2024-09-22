@@ -1,7 +1,5 @@
 let ipAddr ="localhost";
-// let ipAddr = "api.imlasoft.ma";
-// let ipAddr = "imlasoftservices.website";
-// "https://api.imlasoft.ma/api/selection.php";
+
 // fetch("https://api.ipify.org?format=json")
 //   .then((response) => response.json())
 //   .then((data) => {
@@ -29,8 +27,7 @@ let ipAddr ="localhost";
 
 const config = {
   apiUrl: "http://" + ipAddr + "/backend/",
-  // apiUrl: 'http://192.168.11.113/api/',
-  // socketUrl: 'ws://192.168.11.113:8080',
+
 };
 
 export default config;
