@@ -44,8 +44,8 @@ function User() {
   const isNonMobile = useMediaQuery("(min-width:600px)");
 
   const url = config.apiUrl + "user.php";
-  const urlU = "https://imlasoftservices.website/backend/updates.php";
-  // const urlU = "http://localhost/backend/updates.php";
+
+  const urlU = "http://localhost/backend/updates.php";
 
   // config.apiUrl + "updates.php";
   const urlRole = config.apiUrl + "role.php";
